@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(71, 71, 60);
+    margin: 0;
+    font-family: 'Arial', sans-serif, monospace;
+}
+
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 500px;
+    gap: 6px;
+}
+
+#display {
+    grid-column: span 4;
+    height: 60px;
+    background-color: #06e6c4a2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+button {
+    height: 50px;
+    font-size: 30px;
+
+}
